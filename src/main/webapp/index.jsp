@@ -7,7 +7,7 @@
         <title>どこつぶ</title>
     </head>
 
-    <body>
+    <body style="background: linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073)">
         <h1>どこつぶへようこそ</h1>
         <form action="Login" method="post">
             ユーザー名：<input type="text" name="name"><br>
