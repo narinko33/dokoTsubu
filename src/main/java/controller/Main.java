@@ -65,6 +65,8 @@ public class Main extends HttpServlet {
 			
 			application.setAttribute("mutterList", mutterList);
 			
+		} else {
+			request.setAttribute("errorMsg", "つぶやきが入っていません！！");
 		}
 		
 		RequestDispatcher rd =
