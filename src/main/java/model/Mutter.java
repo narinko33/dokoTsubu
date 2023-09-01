@@ -9,7 +9,7 @@ public class Mutter implements Serializable {
 	public Mutter() {
 	}
 
-	public Mutter(String name, String text) {
+	public Mutter(String userName, String text) {
 		this.userName = userName;
 		this.text = text;
 	}
