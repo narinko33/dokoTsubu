@@ -19,7 +19,7 @@
 <title>どこつぶ</title>
 </head>
 <body style="background: linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073)">
-<h1><font color="green"><blink>どこつぶメイン</blink></font></h1>
+<h1><font color="green">どこつぶメイン</font></h1>
 <p>
 <%= loginUser.getName() %>さん、ログイン中
 <a href="Logout">ログアウト</a>

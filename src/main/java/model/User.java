@@ -3,6 +3,7 @@ package model;
 import java.io.Serializable;
 
 public class User implements Serializable {
+	private int id;
 	private String name; //ユーザー名
 	private String pass; //パスワード
 
@@ -13,13 +14,20 @@ public class User implements Serializable {
 		this.name = name;
 		this.pass = pass;
 	}
-
+	public User(int id, String name, String pass) {
+		this(name, pass);
+		this.id = id;
+	}
+	public int getId() {
+		return this.id;
+	}
+	
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	public String getPass() {
-		return pass;
+		return this.pass;
 	}
 
 }
